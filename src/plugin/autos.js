@@ -1,4 +1,4 @@
-import config from '../../config.cjs';
+import config from '../../config.js';
 
 // Main command function
 const anticallCommand = async (m, Matrix) => {
