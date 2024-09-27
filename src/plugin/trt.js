@@ -1,7 +1,7 @@
 import Tesseract from 'tesseract.js';
 import translate from 'translate-google-api';
 import { writeFile } from 'fs/promises';
-import config from '../../config.cjs';
+import config from '../../config.js';
 
 const translateCommand = async (m, sock) => {
   const prefix = config.PREFIX;
