@@ -117,7 +117,7 @@ const prompt = m.body.slice(prefix.length + cmd.length).trim();
                                     text: answer
                                 }),
                                 footer: proto.Message.InteractiveMessage.Footer.create({
-                                    text: "> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴇᴛʜɪx-ᴍᴅ"
+                                    text: "`© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴋᴇʀᴍ-ᴍᴅ`"
                                 }),
                                 header: proto.Message.InteractiveMessage.Header.create({
                                     title: "",
@@ -148,11 +148,11 @@ const prompt = m.body.slice(prefix.length + cmd.length).trim();
                 await Matrix.sendMessage(m.from, { text: answer }, { quoted: m });
             }
 
-            await m.React("✅");
+            await m.React("🕊️");
         } catch (err) {
             await Matrix.sendMessage(m.from, { text: "Something went wrong" }, { quoted: m });
             console.error('Error: ', err);
-            await m.React("❌");
+            await m.React("💀");
         }
     }
 };
