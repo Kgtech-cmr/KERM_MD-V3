@@ -33,7 +33,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
     }
 
     try {
-      await m.React("🕘");
+      await m.React("⏳");
 
       const fbData = await getFBInfo(text);
       console.log("fbData:", fbData);  // Log the data structure
@@ -80,10 +80,10 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
             },
             interactiveMessage: proto.Message.InteractiveMessage.create({
               body: proto.Message.InteractiveMessage.Body.create({
-                text: `*ETHIX-MD FACEBOOK POST DOWNLOADER*\n\n> *TITLE*: ${fbData.title}`
+                text: `*KERM_MD-V3 FACEBOOK POST DOWNLOADER*\n\n> *TITLE*: ${fbData.title}`
               }),
               footer: proto.Message.InteractiveMessage.Footer.create({
-                text: "© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴇᴛʜɪx-ᴍᴅ"
+                text: " `© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴋᴇʀᴍ-ᴍᴅ`"
               }),
               header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image: { url: fbData.thumbnail } }, { upload: Matrix.waUploadToServer })),
@@ -109,13 +109,13 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
       await Matrix.relayMessage(msg.key.remoteJid, msg.message, {
         messageId: msg.key.id
       });
-      await m.React("✅");
+      await m.React("🕊️");
 
       fbSearchIndex += 1; 
     } catch (error) {
       console.error("Error processing your request:", error);
       await m.reply('Error processing your request.');
-      await m.React("❌");
+      await m.React("💀");
     }
   } else if (selectedId) { 
     if (selectedId.startsWith('fbmedia_')) {
@@ -155,7 +155,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
         } catch (error) {
           console.error("Error processing your request:", error);
           await m.reply('Error processing your request.');
-          await m.React("❌");
+          await m.React("💀");
         }
       }
     }
