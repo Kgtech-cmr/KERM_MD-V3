@@ -1,4 +1,4 @@
-import config from '../../config.cjs';
+import config from '../../config.js';
 
 const gcEvent = async (m, Matrix) => {
   const prefix = config.PREFIX;
