@@ -29,9 +29,9 @@ const alive = async (m, Matrix) => {
     const uptimeMessage = `*✭𝙺𝙴𝚁𝙼 𝙼𝙳 𝚅3✭ running...*`
 _________________________________________
 
-*📆 ${days} Day(s)*
-*🕰️ ${hours} Hour(s)*
-*⏳ ${minutes} Minute(s)*
+*🗓️ ${days} Day(s)*
+*🕐 ${hours} Hour(s)*
+*⏰ ${minutes} Minute(s)*
 *⏲️ ${seconds} Second(s)*
 _________________________________________
 `;
@@ -65,7 +65,7 @@ _________________________________________
               text: uptimeMessage
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
-              text: "© ᴘᴏᴡᴇʀᴅ ʙʏ ᴇᴛʜɪx-ᴍᴅ"
+              text: "`© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴋᴇʀᴍ-ᴍᴅ`"
             }),
             header: proto.Message.InteractiveMessage.Header.create({
               ...(await prepareWAMessageMedia({ image: buffer }, { upload: Matrix.waUploadToServer })),
@@ -82,8 +82,8 @@ _________________________________________
               forwardingScore: 999,
               isForwarded: true,
               forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363249960769123@newsletter',
-                newsletterName: "Ethix-MD",
+                newsletterJid: '120363321386877609@newsletter',
+                newsletterName: "𝙆𝙀𝙍𝙈_𝙈𝘿-𝙑3",
                 serverMessageId: 143
               }
             }
