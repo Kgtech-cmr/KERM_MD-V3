@@ -1,6 +1,6 @@
 import { downloadContentFromMessage } from '@whiskeysockets/baileys';
 import fs from 'fs';
-import config from '../../config.cjs';
+import config from '../../config.js';
 
 const rvo = async (m, sock) => {
   try {
