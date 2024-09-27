@@ -12,9 +12,9 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
 
     if (!validCommands.includes(cmd)) return;
     
-    if (!m.isGroup) return m.reply("*📛 THIS COMMAND CAN ONLY BE USED IN GROUPS*");
+    if (!m.isGroup) return m.reply("*🚫 THIS COMMAND CAN ONLY BE USED IN GROUPS*");
 
-    if (!isCreator) return m.reply("*📛 THIS IS AN OWNER COMMAND*");
+    if (!isCreator) return m.reply("*⚠️ THIS IS AN OWNER COMMAND*");
 
     await gss.groupLeave(m.from);
   } catch (error) {
