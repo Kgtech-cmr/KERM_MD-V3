@@ -1,4 +1,4 @@
-import config from '../../config.cjs';
+import config from '../../config.js';
 
 const alwaysonlineCommand = async (m, Matrix) => {
   const botNumber = await Matrix.decodeJid(Matrix.user.id);
