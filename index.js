@@ -17,7 +17,7 @@ import path from 'path';
 import chalk from 'chalk';
 import moment from 'moment-timezone';
 import axios from 'axios';
-import config from './config.cjs';
+import config from './config.js';
 import pkg from './lib/autoreact.cjs';
 const { emojis, doReact } = pkg;
 
