@@ -1,16 +1,16 @@
 {
-  "name": "Ethix-MD",
+  "name": "KERM_MD-V3",
   "version": "10.8.1",
-  "description": "Ethix-MD latest multi device whatsapp bot",
+  "description": "Kerm-MD latest multi device whatsapp bot",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name Ethix-MD",
-    "stop": "pm2 stop Ethix-MD",
-    "restart": "pm2 restart Ethix-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name Kerm-MD",
+    "stop": "pm2 stop Kerm-MD",
+    "restart": "pm2 restart Kerm-MD"
   },
-  "keywords": ["ethix-md", "whatsapp-bot", "whatsapp md bot"],
-  "author": "Ethix-Xsid",
+  "keywords": ["kerm-md", "whatsapp-bot", "whatsapp md bot"],
+  "author": "Kg-Tech",
   "license": "ISC",
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
