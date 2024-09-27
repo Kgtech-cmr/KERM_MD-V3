@@ -1,6 +1,6 @@
 import { exec } from 'child_process';
 import fs from 'fs';
-import { getRandom } from '../../lib/myfunc.cjs';
+import { getRandom } from '../../lib/myfunc.js';
 import config from '../../config.js';
 
 const audioEffects = async (m, gss) => {
