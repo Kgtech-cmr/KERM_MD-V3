@@ -28,7 +28,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
       const result = response.data;
 
       let formattedResult = `╭══════════════•∞•══╮\n`;
-      formattedResult += `│⿻   *𝞢𝙏𝞖𝞘𝞦-𝞛𝘿 😎 🔥*\n`;
+      formattedResult += `│⿻   *✭𝙺𝙴𝚁𝙼 𝙼𝙳 𝚅3✭ 🕊️*\n`;
       formattedResult += `│⿻   *LIVE MATCH INFO* ✨\n`;
       formattedResult += `│⿻\n`;
 
