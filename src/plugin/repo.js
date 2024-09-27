@@ -1,7 +1,7 @@
 import pkg, { prepareWAMessageMedia } from '@whiskeysockets/baileys';
 const { generateWAMessageFromContent, proto } = pkg;
 import axios from 'axios';
-import config from '../../config.cjs';
+import config from '../../config.js';
 
 const searchRepo = async (m, Matrix) => {
   const prefix = config.PREFIX;
