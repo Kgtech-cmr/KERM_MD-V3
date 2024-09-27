@@ -11,11 +11,11 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
   const validCommands = ['lyrics', 'lyric'];
 
   if (validCommands.includes(cmd)) {
-    if (!text) return m.reply(`Hello *_${m.pushName}_,*\n Here's Example Usage: _.lyrics Spectre|Alan Walker._`);
+    if (!text) return m.reply(`Hello *_${m.pushName}_,*\n Here's Example Usage: _.lyrics Bad|Ninho ft Omah Lay._`);
 
     try {
       await m.React('⏳');
-      await m.reply('A moment, *Ethix-MD* is generating your lyrics request...');
+      await m.reply('A moment, *𝙆𝙀𝙍𝙈_𝙈𝘿-𝙑3* is generating your lyrics request...');
 
       if (!text.includes('|')) {
         return m.reply('Please provide the song name and artist name separated by a "|", for example: Bad|Ninho ft Omah Lay.');
