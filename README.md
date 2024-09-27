@@ -1,6 +1,11 @@
 ![logo](yoshc.jpg)
 <img align="left" src="https://user-images.githubusercontent.com/65187002/144930161-2f783401-8d27-4fdf-a2f7-cc0ba32f1f1f.gif" width="21%" style="display:inline;"><img align="right" src="https://user-images.githubusercontent.com/65187002/144930161-2f783401-8d27-4fdf-a2f7-cc0ba32f1f1f.gif" width="21%" style="display:inline;">
 
+<p align="center">
+  <a href="https://kg-site-support.vercel.app/">
+    <img src="https://img.shields.io/badge/KG WEBSITE-000?style=for-the-badge&logo=vercel&logoColor=white" alt="Generate Session ID"/>
+  </a>
+
 <h1 align="center">Hi 👋, I'm KG TECH</h1>
 <h3 align="center">A passionate Programmer from CAMEROON</h3>
 <p align="center">Don't try to use the script of this bot, it won't work anyway🛠️</p>
