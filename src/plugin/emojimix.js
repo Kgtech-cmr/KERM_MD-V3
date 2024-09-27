@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
 import fs from 'fs';
-import config from '../../config.cjs';
+import config from '../../config.js';
 
 const emojimix = async (m, Matrix) => {
   try {
