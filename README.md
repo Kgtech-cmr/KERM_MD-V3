@@ -30,58 +30,6 @@
 <img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
 <br><br>
 
-- ✅ SUPPORT ALL BUTTON (ANDROID)
-
-- 🔐SC INI DILINDUNGI OLEH CREATOR🔒
-
-- 🔭 BUG WHATSAPP PRIVATE CHAT 
-
-- 🌱 BUG WHATSAPP GROUP 
-
-- 👨‍💻 BOOM BUG WHATSAPP 
-
-- ⚡ Fun fact **I think I'm funny**
-
-- 🔴 BASE SC | XEON
-
-<br>
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/yosepwahyudanuarto" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="supunnanayakkara" height="30" width="40" /></a>
-<a href="https://stackoverflow.com/users/9565088/yosepwahyudanuarta" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="supun-nanayakkara" height="30" width="40" /></a>
-<a href="https://instagram.com/yosepwdd" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="supun___lk" height="30" width="40" /></a>
-</p>
-<br>
-
-<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
-
-<h3 align="left">INTERFACE BOT WHATSAPP | IOS</h3>
-
-- MENU
-<p align="left">
-  <a href="https://google.com">
-    <img src="./menu.jpg" />
-  </a>
-</p>
-
-- ALLMENU MENU
-<p align="left">
-  <a href="https://google.com">
-    <img src="./allmenu.jpg" />
-  </a>
-</p>
-
-- BUG MENU
-<p align="left">
-  <a href="https://google.com">
-    <img src="./bugmenu.jpg" />
-  </a>
-</p>
-
-</p>
-
-<br/>
-
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
 
 <h3 align="left">Trophy:</h3>
