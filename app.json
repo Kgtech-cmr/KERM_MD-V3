@@ -1,10 +1,10 @@
 {
-  "name": "whatsapp-bot (Ethix-MD)",
-  "description": " Whatsapp bot.",
+  "name": "whatsapp-bot (KERM_MD-V3)",
+  "description": " Whatsapp bot multidevice.",
   "keywords": [
     "whatsapp bot"
   ],
-  "repository": "https://github.com/Ethix-Xsid/Ethix-MD",
+  "repository": "https://github.com/Kgtech-cme/KERM_MD-V3",
   "stack": "container",
   "env": { 
       "SESSION_ID": {
@@ -20,7 +20,7 @@
     "AUTO_STATUS_SEEN": {
       "description": "make it true if you want bot to view status",
       "required": false,
-      "value": ""
+      "value": "true"
     },
     "AUTO_READ": {
       "description": "make it true if you want bot to read message",
@@ -40,7 +40,7 @@
     "ALWAYS_ONLINE": {
       "description": "make it true if you want bot to show always online",
       "required": false,
-      "value": ""
+      "value": "true"
     },
     "AUTO_BLOCK": {
       "description": "make it true if you want bot to auto block only 212 numbers",
@@ -55,7 +55,7 @@
     "PREFIX": {
       "description": "Your Bot Prefix default (.)",
       "required": false,
-      "value": ""
+      "value": "."
     }
     },
     "buildpacks": [
