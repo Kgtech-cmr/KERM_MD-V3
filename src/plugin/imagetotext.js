@@ -1,6 +1,6 @@
 import Tesseract from 'tesseract.js';
 import { writeFile, unlink } from 'fs/promises';
-import config from '../../config.cjs';
+import config from '../../config.js';
 
 const givetextCommand = async (m, Matrix) => {
   const prefix = config.PREFIX;
