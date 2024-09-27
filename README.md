@@ -36,6 +36,69 @@
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
 
+## SETUP FOR KERM_LITE
+
+**CLICK HERE 👇 TO FORK**
+
+<a href="https://github.com/Kgtech-cmr/KERM-LITE-MD/fork"><img src="https://img.shields.io/badge/FORK-KERM-black" alt="FORK KERM-LITE-MD" width="100"></a>
+
+1.𝐆𝐄𝐓 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐈𝐃 𝐅𝐑𝐎𝐌 𝐒𝐄𝐑𝐕𝐄𝐑
+
+<a href="https://extreme-dalia-arolsarl-9b533ba0.koyeb.app/code"><img src="https://img.shields.io/badge/PAIR_CODE-yellow" alt="Click Here to Get Pair-Code" width="110"></a>   
+
+## How To Deploy On Panel.
+ [![YOUTUBE](https://img.shields.io/badge/HOW_TO_DEPLOY-red?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/3BxpOEO1Xxg?si=TtceW2eks_btVG-F)
+
+#### DEPLOY ON PANEL 
+1. Now Deploy
+    <br>
+<a href='https://optiklink.com' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-PANEL-black?style=for-the-badge&logo=optilink'/></a>
+   <br>
+
+#### DEPLOY TO HEROKU 
+
+1. If You don't have a account in Heroku. Create a account.
+    <br>
+<a href='https://heroku.com' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=heroku'/></a>
+   <br>
+2. Now Deploy
+    <br>
+<a href='https://heroku.com/deploy?template=https://github.com/Kgtech-cmr/KERM-LITE' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku'/></a>
+
+#### DEPLOY TO KOYEB 
+
+1. If You don't have a account in koyeb. Create a account.
+    <br>
+<a href='https://app.koyeb.com/auth/signup' target="_blank"><img alt='koyeb' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=koyeb'/></a>
+
+2. Get [Koyeb api key](https://app.koyeb.com/account/api)
+
+4. Now Deploy
+    <br>
+<a href='https://app.koyeb.com/services/deploy?type=docker&image=docker.io/kgkerm/kerm-lite&name=kerm-lite&env[SESSION_ID]=&env[BOT_INFO]=Kɢᴛᴇᴄʜ;Kᴇʀᴍ-ʟɪᴛᴇ⚡️&env[SUDO]=237656520674&env[ANTILINK]=true&env[PORT]=8000&env[KOYEB_API_KEY]=&service_type=worker' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=koyeb'/></a>
+
+#### DEPLOY TO RENDER 
+
+1. Now Deploy
+    <br>
+<a href='https://render.com/deploy?repo=https://github.com/Kgtech-cmr/KERM-LITE&env=SESSION_ID,BOT_INFO' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=render&logoColor=white'/>
+
+#### DEPLOY ON RAILWAY
+
+1. If You don't have a account in Railway. Create a account.
+    <br>
+<a href='https://railway.app' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=railway'/>
+2. Now Deploy
+    <br>
+<a href='https://railway.app/new/template?template=https://github.com/Kgtech-cmr/KERM-LITE&envs=SESSION_ID,BOT_INFO' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=railway'/></a>
+
+### CONTACT OWNER
+
+<details close>
+<summary>Read More</summary>
+
+<br>
+
 <h3 align="left">Trophy:</h3>
 
 <p align="center">
