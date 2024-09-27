@@ -78,7 +78,7 @@ export const webp2mp4File = async (path) => {
       const result = 'https:' + $2('div#output > p.outfile > video > source').attr('src');
       resolve({
         status: true,
-        message: "Created By Ethix-MD",
+        message: "Created By ☞⌜ KG TECH⌝☜",
         result: result
       });
     } catch (err) {
