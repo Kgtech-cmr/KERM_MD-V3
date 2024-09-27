@@ -92,7 +92,7 @@
     <br>
 <a href='https://railway.app/new/template?template=https://github.com/Kgtech-cmr/KERM-LITE&envs=SESSION_ID,BOT_INFO' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=railway'/></a>
 
-### CONTACT OWNER
+### DETAILS OWNER
 
 <details close>
 <summary>Read More</summary>
