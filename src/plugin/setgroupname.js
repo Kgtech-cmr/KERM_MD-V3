@@ -7,7 +7,7 @@ const setGroupName = async (m, gss) => {
 const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0].toLowerCase() : '';
 const text = m.body.slice(prefix.length + cmd.length).trim();
 
-    const validCommands = ['setgroupname', 'setname'];
+    const validCommands = ['setgroupname', 'setname', 'gname'];
 
     if (!validCommands.includes(cmd)) return;
 
