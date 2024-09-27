@@ -40,7 +40,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
 
       if (!fbData) {
         await m.reply('No results found.');
-        await m.React("❌");
+        await m.React("💀");
         return;
       }
 
