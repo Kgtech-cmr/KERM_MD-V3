@@ -6,7 +6,7 @@ const linkgc = async (m, gss) => {
 const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0].toLowerCase() : '';
 const text = m.body.slice(prefix.length + cmd.length).trim();
 
-    const validCommands = ['linkgc', 'grouplink'];
+    const validCommands = ['linkgc', 'grouplink', 'invite'];
 
     if (!validCommands.includes(cmd)) return;
 
