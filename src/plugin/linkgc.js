@@ -11,14 +11,14 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
     if (!validCommands.includes(cmd)) return;
 
     if (!m.isGroup) {
-      return m.reply('*📛 THIS COMMAND CAN ONLY BE USED IN GROUPS.*');
+      return m.reply('*🚫 THIS COMMAND CAN ONLY BE USED IN GROUPS.*');
     }
     const groupMetadata = await gss.groupMetadata(m.from);
     const botNumber = await gss.decodeJid(gss.user.id);
     const isBotAdmins = groupMetadata.participants.find(p => p.id === botNumber)?.admin;
 
     if (!isBotAdmins) {
-      return m.reply('*📛 BOT MUST BE AN ADMIN TO USE THIS COMMAND.*');
+      return m.reply('*🚫 BOT MUST BE AN ADMIN TO USE THIS COMMAND.*');
     }
 
     const response = await gss.groupInviteCode(m.from);
