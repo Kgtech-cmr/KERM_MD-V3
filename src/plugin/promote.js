@@ -11,7 +11,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
 
     if (!validCommands.includes(cmd)) return;
 
-    if (!m.isGroup) return m.reply("*🚫 THIS COMMAND CAN ONLY BE USED IN GROUPS*");
+    if (!m.isGroup) return m.reply("*🚫 THIS COMMAND CAN ONLY BE USED IN GROUPS 🕊️*");
     const groupMetadata = await gss.groupMetadata(m.from);
     const participants = groupMetadata.participants;
     const botAdmin = participants.find(p => p.id === botNumber)?.admin;
