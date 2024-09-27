@@ -9,7 +9,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
   const stickerCommands = ['cry', 'kiss', 'kill', 'kick', 'hug', 'pat', 'lick', 'bite', 'yeet', 'bully', 'bonk', 'wink', 'poke', 'nom', 'slap', 'smile', 'wave', 'awoo', 'blush', 'smug', 'dance', 'happy', 'sad', 'cringe', 'cuddle', 'shinobu', 'handhold', 'glomp', 'highfive'];
 
   if (stickerCommands.includes(cmd)) {
-    const packname = `Ethix-MD`;
+    const packname = `𝙆𝙀𝙍𝙈-𝙈𝘿`;
     const author = '';
 
     try {
