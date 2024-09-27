@@ -13,14 +13,14 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
     if (!text) return m.reply('Please provide a Google Drive URL.');
 
     try {
-      await m.React('🕘');
+      await m.React('⏳');
 
       const gdriveUrl = text;
       const gdriveInfo = await GDLink(gdriveUrl);
 
       if (gdriveInfo && gdriveInfo.status && gdriveInfo.data) {
         const mediaUrl = gdriveInfo.data;
-        const caption = `> © Powered By Ethix-MD`;
+        const caption = `© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴋᴇʀᴍ-ᴍᴅ`;
 
         // Inferring the file type based on the file extension
         const extension = mediaUrl.split('.').pop().toLowerCase();
