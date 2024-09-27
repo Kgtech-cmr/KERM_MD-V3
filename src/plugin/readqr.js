@@ -1,7 +1,7 @@
 import Jimp from 'jimp';
 import jsQR from 'jsqr';
 import jpeg from 'jpeg-js';
-import config from '../../config.cjs';
+import config from '../../config.js';
 
 const readqr = async (m, gss) => {
   try {
