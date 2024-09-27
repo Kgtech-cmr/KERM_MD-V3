@@ -32,7 +32,7 @@ const arg = m.body.slice(prefix.length + cmd.length).trim();
         const imageBuffer = Buffer.from(response.data, 'binary');
 
         await sock.sendMessage(m.from, { image: imageBuffer, caption: result.title }, { quoted: m });
-        await m.React("✅");
+        await m.React("🕊️");
       }
     } catch (error) {
       console.error("Error fetching images:", error);
