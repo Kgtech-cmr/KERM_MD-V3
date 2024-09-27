@@ -10,7 +10,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
 
     if (cmd === 'mode') {
         if (!isCreator) {
-            await Matrix.sendMessage(m.from, { text: "*📛 THIS IS AN OWNER COMMAND*" }, { quoted: m });
+            await Matrix.sendMessage(m.from, { text: "*🚫 THIS IS AN OWNER COMMAND*" }, { quoted: m });
             return;
         }
 
