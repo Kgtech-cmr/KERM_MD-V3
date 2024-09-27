@@ -1,6 +1,6 @@
 import cron from 'node-cron';
 import moment from 'moment-timezone';
-import config from '../../config.cjs';
+import config from '../../config.js';
 
 let scheduledTasks = {};
 
