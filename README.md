@@ -48,11 +48,11 @@
 
 **CLICK HERE 👇 TO FORK**
 
-<a href="https://github.com/Kgtech-cmr/KERM-LITE-MD/fork"><img src="https://img.shields.io/badge/FORK-KERM-black" alt="FORK KERM-LITE-MD" width="100"></a>
+<a href="https://github.com/Kgtech-cmr/KERM_MD-V3/fork"><img src="https://img.shields.io/badge/FORK-KERM-black" alt="FORK KERM_MD-V3" width="100"></a>
 
 1.𝐆𝐄𝐓 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐈𝐃 𝐅𝐑𝐎𝐌 𝐒𝐄𝐑𝐕𝐄𝐑
 
-<a href="https://extreme-dalia-arolsarl-9b533ba0.koyeb.app/code"><img src="https://img.shields.io/badge/PAIR_CODE-yellow" alt="Click Here to Get Pair-Code" width="110"></a>   
+<a href="https://relevant-muriel-lordkerm-db0df9f3.koyeb.app/"><img src="https://img.shields.io/badge/PAIR_CODE-yellow" alt="Click Here to Get Pair-Code" width="110"></a>   
 
 ## How To Deploy On Panel.
  [![YOUTUBE](https://img.shields.io/badge/HOW_TO_DEPLOY-red?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/3BxpOEO1Xxg?si=TtceW2eks_btVG-F)
@@ -71,7 +71,7 @@
    <br>
 2. Now Deploy
     <br>
-<a href='https://heroku.com/deploy?template=https://github.com/Kgtech-cmr/KERM-LITE' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku'/></a>
+<a href='https://heroku.com/deploy?template=https://github.com/Kgtech-cmr/KERM_MD-V3' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku'/></a>
 
 #### DEPLOY TO KOYEB 
 
@@ -83,13 +83,13 @@
 
 4. Now Deploy
     <br>
-<a href='https://app.koyeb.com/services/deploy?type=docker&image=docker.io/kgkerm/kerm-lite&name=kerm-lite&env[SESSION_ID]=&env[BOT_INFO]=Kɢᴛᴇᴄʜ;Kᴇʀᴍ-ʟɪᴛᴇ⚡️&env[SUDO]=237656520674&env[ANTILINK]=true&env[PORT]=8000&env[KOYEB_API_KEY]=&service_type=worker' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=koyeb'/></a>
+<a href='https://app.koyeb.com/services/deploy?type=docker&image=docker.io/kgkerm/kerm-Md V3&name=Kerm Md V3&env[SESSION_ID]=&env[BOT_INFO]=Kɢᴛᴇᴄʜ;✭𝙺𝙴𝚁𝙼 𝙼𝙳 𝚅3✭&env[SUDO]=237656520674&env[ANTILINK]=true&env[PORT]=8000&env[KOYEB_API_KEY]=&service_type=worker' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=koyeb'/></a>
 
 #### DEPLOY TO RENDER 
 
 1. Now Deploy
     <br>
-<a href='https://render.com/deploy?repo=https://github.com/Kgtech-cmr/KERM-LITE&env=SESSION_ID,BOT_INFO' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=render&logoColor=white'/>
+<a href='https://render.com/deploy?repo=https://github.com/Kgtech-cmr/KERM_MD-V3&env=SESSION_ID,BOT_INFO' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=render&logoColor=white'/>
 
 #### DEPLOY ON RAILWAY
 
@@ -98,7 +98,7 @@
 <a href='https://railway.app' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=railway'/>
 2. Now Deploy
     <br>
-<a href='https://railway.app/new/template?template=https://github.com/Kgtech-cmr/KERM-LITE&envs=SESSION_ID,BOT_INFO' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=railway'/></a>
+<a href='https://railway.app/new/template?template=https://github.com/Kgtech-cmr/KERM_MD-V3&envs=SESSION_ID,BOT_INFO' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=railway'/></a>
 
 <h3 align="left">Trophy:</h3>
 
