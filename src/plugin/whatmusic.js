@@ -30,7 +30,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
       const filePath = `./${Date.now()}.mp3`;
       fs.writeFileSync(filePath, media);
 
-      m.reply('Identifying the music, please wait...');
+      m.reply('Shazaming the music, please wait...');
 
       const res = await acr.identify(fs.readFileSync(filePath));
       const { code, msg } = res.status;
