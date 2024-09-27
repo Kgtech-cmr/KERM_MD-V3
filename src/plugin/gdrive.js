@@ -1,6 +1,6 @@
 import pkg from "nayan-media-downloader";
 const { GDLink } = pkg;
-import config from '../../config.cjs';
+import config from '../../config.js';
 
 const gdriveDownload = async (m, Matrix) => {
   const prefix = config.PREFIX;
