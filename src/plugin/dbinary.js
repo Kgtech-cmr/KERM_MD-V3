@@ -1,5 +1,5 @@
 import { dBinary } from '../../lib/binary.cjs';
-import config from '../../config.cjs';
+import config from '../../config.js';
 
 const dbinary = async (m, gss) => {
 const prefix = config.PREFIX;
