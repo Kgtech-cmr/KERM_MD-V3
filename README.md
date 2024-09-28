@@ -55,7 +55,7 @@
 <a href="https://adverse-pandora-lordkerm-57d51209.koyeb.app/code"><img src="https://img.shields.io/badge/PAIR_CODE-yellow" alt="Click Here to Get Pair-Code" width="110"></a>   
 
 ## How To Deploy On Panel.
- [![YOUTUBE](https://img.shields.io/badge/HOW_TO_DEPLOY-red?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/3BxpOEO1Xxg?si=TtceW2eks_btVG-F)
+ [![YOUTUBE](https://img.shields.io/badge/HOW_TO_DEPLOY-red?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/WBlvraDK7rY?si=pKxv4qxA__GtjBgg)
 
 #### DEPLOY ON PANEL 
 1. Now Deploy
