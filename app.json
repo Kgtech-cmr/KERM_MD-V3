@@ -1,10 +1,10 @@
 {
-  "name": "whatsapp-bot (KERM_MD-V3)",
+  "name": "whatsapp-bot (NOVA)",
   "description": " Whatsapp bot multidevice.",
   "keywords": [
     "whatsapp bot"
   ],
-  "repository": "https://github.com/Kgtech-cme/KERM_MD-V3",
+  "repository": "https://github.com/Devenlee350/KERM_MD-V3",
   "stack": "container",
   "env": { 
       "SESSION_ID": {
