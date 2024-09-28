@@ -83,7 +83,7 @@ async function start() {
                     const msg = await store.loadMessage(key.remoteJid, key.id);
                     return msg.message || undefined;
                 }
-                return { conversation: "Kerm_MD_V3 whatsapp user bot" };
+                return { conversation: "NOVA whatsapp user bot" };
             }
         });
 
@@ -95,8 +95,8 @@ async function start() {
                 }
             } else if (connection === 'open') {
                 if (initialConnection) {
-                    console.log(chalk.green("😃 Integration Successful️ ✅"));
-                    Matrix.sendMessage(Matrix.user.id, { text: `😃 Integration Successful️ ✅` });
+                    console.log(chalk.green("😃 𝐍𝐎𝐕𝐀 connected Successful️ ✅"));
+                    Matrix.sendMessage(Matrix.user.id, { text: `😃 𝐍𝐎𝐕𝐀 connected Successful️ ✅` });
                     initialConnection = false;
                 } else {
                     console.log(chalk.blue("♻️ Connection reestablished after restart."));
