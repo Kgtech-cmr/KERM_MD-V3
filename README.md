@@ -5,7 +5,7 @@
     <img src="https://img.shields.io/badge/KG WEBSITE-000?style=for-the-badge&logo=vercel&logoColor=white" alt="Generate Session ID"/>
   </a>
 
-<h1 align="center">Hi 👋, I'm KG TECH</h1>
+<h1 align="center">Hi 👋, I'm STRIKERBOY TECH</h1>
 <h3 align="center">A passionate Programmer from CAMEROON</h3>
 <p align="center">Don't try to use the script of this bot, it won't work anyway🛠️</p>
 <p align="center"> 
@@ -48,7 +48,7 @@
 
 **CLICK HERE 👇 TO FORK**
 
-<a href="https://github.com/Kgtech-cmr/KERM_MD-V3/fork"><img src="https://img.shields.io/badge/FORK-KERM-black" alt="FORK KERM_MD-V3" width="100"></a>
+<a href="https://github.com/Devenlee350/KERM_MD-V3/fork"><img src="https://img.shields.io/badge/FORK-KERM-black" alt="FORK KERM_MD-V3" width="100"></a>
 
 1.𝐆𝐄𝐓 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐈𝐃 𝐅𝐑𝐎𝐌 𝐒𝐄𝐑𝐕𝐄𝐑
 
@@ -98,7 +98,7 @@
 <a href='https://railway.app' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=railway'/>
 2. Now Deploy
     <br>
-<a href='https://railway.app/new/template?template=https://github.com/Kgtech-cmr/KERM_MD-V3&envs=SESSION_ID,BOT_INFO' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=railway'/></a>
+<a href='https://railway.app/new/template?template=https://github.com/Devenlee350/KERM_MD-V3&envs=SESSION_ID,BOT_INFO' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=railway'/></a>
 
 <h3 align="left">Trophy:</h3>
 
