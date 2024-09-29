@@ -107,7 +107,7 @@ const hd = async (m, gss) => {
         const result = await imgLarger.processImage(media, 4);
         const enhancedImageUrl = result.data.downloadUrls[0];
 
-        gss.sendMessage(m.from, { image: { url: enhancedImageUrl }, caption: `> *Hey ${m.pushName}, here is your enhanced image*\n*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴋᴇʀᴍ-ᴍᴅ*` }, { quoted: m });
+        gss.sendMessage(m.from, { image: { url: enhancedImageUrl }, caption: `> *Hey ${m.pushName}, here is your enhanced image*\n*© pσwєrєd вч 𝚂𝚃𝚁𝙸𝙺𝙴𝚁𝙱𝙾𝚈 𝚆𝙾𝚁𝙻𝙳*` }, { quoted: m });
       
     } catch (error) {
       console.error('Error processing media:', error);
