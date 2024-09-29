@@ -23,7 +23,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
     const type = Object.keys(msg)[0];
     
     const originalCaption = msg[type].caption || '';
-    const newCaption = `${originalCaption}\n> © Powered By Kerm-MD`;
+    const newCaption = `${originalCaption}\n> © pσwєrєd вч 𝚂𝚃𝚁𝙸𝙺𝙴𝚁𝙱𝙾𝚈 𝚆𝙾𝚁𝙻𝙳`;
 
 
     // Download the media content
