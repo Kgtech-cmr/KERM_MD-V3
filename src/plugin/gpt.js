@@ -117,7 +117,7 @@ const prompt = m.body.slice(prefix.length + cmd.length).trim();
                                     text: answer
                                 }),
                                 footer: proto.Message.InteractiveMessage.Footer.create({
-                                    text: "`© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴋᴇʀᴍ-ᴍᴅ`"
+                                    text: "`© pσwєrєd вч 𝚂𝚃𝚁𝙸𝙺𝙴𝚁𝙱𝙾𝚈 𝚆𝙾𝚁𝙻𝙳`"
                                 }),
                                 header: proto.Message.InteractiveMessage.Header.create({
                                     title: "",
