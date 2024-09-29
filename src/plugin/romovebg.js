@@ -41,7 +41,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
       scale: '100%',
       outputFile: outputFilePath
     }).then(async () => {
-      gss.sendMessage(m.from, { image: fs.readFileSync(outputFilePath), caption: `> Hey ${m.pushName} Your picture Background Romoved Sucessfully` }, { quoted: m });
+      gss.sendMessage(m.from, { image: fs.readFileSync(outputFilePath), caption: `> Hey ${m.pushName} Your picture Background Removed Sucessfully\n\n© pσwєrєd вч 𝚂𝚃𝚁𝙸𝙺𝙴𝚁𝙱𝙾𝚈 𝚆𝙾𝚁𝙻𝙳` }, { quoted: m });
       fs.unlinkSync(localFilePath);
       fs.unlinkSync(outputFilePath);
     }).catch(error => {
