@@ -11,7 +11,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
   const validCommands = ['repo', 'sc', 'script','kerm'];
 
   if (validCommands.includes(cmd)) {
-    const repoUrl = `https://api.github.com/repos/Kgtech-cmr/KERM_MD-V3`;
+    const repoUrl = `https://github.com/kgtech-cmr/KERM_MD-V3`;
     
     await handleRepoCommand(m, Matrix, repoUrl);
   }
