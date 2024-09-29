@@ -21,7 +21,7 @@ export default async function GroupParticipants(sock, { id, participants, action
                     const joinDate = moment.tz('Africa/Harare').format('DD/MM/YYYY');
                     const membersCount = metadata.participants.length;
             sock.sendMessage(id, {
-               text: `> Hello 👋 @${userName}! Welcome to *${metadata.subject}*. My name is 𝐍𝐎𝐕𝐀 ᵛ1  what's yours?\n> You are the ${membersCount}th member.\n> Joined at: ${joinTime} on ${joinDate}
+               text: `> Hello 👋 @${userName}! Welcome to *${metadata.subject}*. My name is 𝐍𝐎𝐕𝐀 ᵛ1  whats yours?\n> You are the ${membersCount}th member.\n> Joined at: ${joinTime} on ${joinDate}
 "`, contextInfo: {
                   mentionedJid: [jid],
                   externalAdReply: {
