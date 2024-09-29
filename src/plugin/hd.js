@@ -22,7 +22,7 @@ const tohd = async (m, gss) => {
 
     try {
         let proses = await remini(media, "enhance");
-        gss.sendMessage(m.from, { image: proses, caption: `> *Hey ${m.pushName} Here Is Your Enhanced Image*\n*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴋᴇʀᴍ-ᴍᴅ*` }, { quoted: m });
+        gss.sendMessage(m.from, { image: proses, caption: `> *Hey ${m.pushName} Here Is Your Enhanced Image*\n*© pσwєrєd вч 𝚂𝚃𝚁𝙸𝙺𝙴𝚁𝙱𝙾𝚈 𝚆𝙾𝚁𝙻𝙳*` }, { quoted: m });
       
     } catch (error) {
       console.error('Error processing media:', error);
