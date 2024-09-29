@@ -70,13 +70,13 @@ async function start() {
     try {
         const { state, saveCreds } = await useMultiFileAuthState(sessionDir);
         const { version, isLatest } = await fetchLatestBaileysVersion();
-        console.log(`🤖 KERM_MD-V3 using WA v${version.join('.')}, isLatest: ${isLatest}`);
+        console.log(`🤖 NOVA using WA v${version.join('.')}, isLatest: ${isLatest}`);
         
         const Matrix = makeWASocket({
             version,
             logger: pino({ level: 'silent' }),
             printQRInTerminal: useQR,
-            browser: ["Kerm-MD", "safari", "3.3"],
+            browser: ["NOVA", "safari", "3.3"],
             auth: state,
             getMessage: async (key) => {
                 if (store) {
