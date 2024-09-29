@@ -60,7 +60,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
 
       await gss.sendImageAsSticker(m.from, buffer, m, {
         packname: "",
-        author: "> Kerm-MD"
+        author: "> 𝚂𝚃𝚁𝙸𝙺𝙴𝚁𝙱𝙾𝚈"
       });
     } catch (error) {
       console.error('Error during HTTP request:', error);
