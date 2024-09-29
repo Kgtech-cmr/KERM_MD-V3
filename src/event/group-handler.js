@@ -17,8 +17,8 @@ export default async function GroupParticipants(sock, { id, participants, action
          // action
          if (action == "add" && config.WELCOME ) {
            const userName = jid.split("@")[0];
-                    const joinTime = moment.tz('Africa/Cameroon').format('HH:mm:ss');
-                    const joinDate = moment.tz('Africa/Cameroon').format('DD/MM/YYYY');
+                    const joinTime = moment.tz('Africa/Harare').format('HH:mm:ss');
+                    const joinDate = moment.tz('Africa/Harare').format('DD/MM/YYYY');
                     const membersCount = metadata.participants.length;
             sock.sendMessage(id, {
                text: `> Hello @${userName}! Welcome to *${metadata.subject}*.\n> You are the ${membersCount}th member.\n> Joined at: ${joinTime} on ${joinDate}
@@ -36,8 +36,8 @@ export default async function GroupParticipants(sock, { id, participants, action
             })
          } else if (action == "remove" && config.WELCOME ) {
            const userName = jid.split('@')[0];
-                    const leaveTime = moment.tz('Africa/Cameroon').format('HH:mm:ss');
-                    const leaveDate = moment.tz('Africa/Cameroon').format('DD/MM/YYYY');
+                    const leaveTime = moment.tz('Africa/Harare').format('HH:mm:ss');
+                    const leaveDate = moment.tz('Africa/Harare').format('DD/MM/YYYY');
                     const membersCount = metadata.participants.length;
             sock.sendMessage(id, {
                text: `> Goodbye @${userName} from ${metadata.subject}.\n> We are now ${membersCount} in the group.\n> Left at: ${leaveTime} on ${leaveDate}"`, contextInfo: {
