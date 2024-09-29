@@ -7,7 +7,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
 
   if (cmd === 'restart') {
     try {
-      m.reply('Proses....')
+      m.reply('𝐍𝐎𝐕𝐀 rєstαrtíng...')
      await process.exit()
     } catch (error) {
       console.error(error);
