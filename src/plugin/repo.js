@@ -8,10 +8,10 @@ const searchRepo = async (m, Matrix) => {
 const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0].toLowerCase() : '';
 const text = m.body.slice(prefix.length + cmd.length).trim();
 
-  const validCommands = ['repo', 'sc', 'script','kerm'];
+  const validCommands = ['repo', 'sc', 'script','nova'];
 
   if (validCommands.includes(cmd)) {
-    const repoUrl = `https://api.github.com/repos/Kgtech-cmr/KERM_MD-V3`;
+    const repoUrl = `https://api.github.com/repos/Devenlee350/KERM_MD-V3`;
     
     await handleRepoCommand(m, Matrix, repoUrl);
   }
@@ -53,12 +53,12 @@ const handleRepoCommand = async (m, Matrix, repoUrl) => {
               text: messageText,
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
-              text: '© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴋᴇʀᴍ_ᴍᴅ-ᴠ3',
+              text: '© pσwєrєd вч 𝚂𝚃𝚁𝙸𝙺𝙴𝚁𝙱𝙾𝚈 𝚆𝙾𝚁𝙻𝙳',
             }),
             header: proto.Message.InteractiveMessage.Header.create({
               ...(await prepareWAMessageMedia({
                 image: {
-                  url: 'https://files.catbox.moe/wdnhap.jpg',
+                  url: 'https://i.imgur.com/ZnfODeW.jpeg',
                 },
               }, { upload: Matrix.waUploadToServer })),
               title: '',
@@ -86,7 +86,7 @@ const handleRepoCommand = async (m, Matrix, repoUrl) => {
                   name: 'cta_url',
                   buttonParamsJson: JSON.stringify({
                     display_text: 'Join Our Community',
-                    url: 'https://whatsapp.com/channel/0029Vafn6hc7DAX3fzsKtn45',
+                    url: 'https://whatsapp.com/channel/0029VafbajGDuMRoRlel7k1p',
                   }),
                 },
               ],
