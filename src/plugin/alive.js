@@ -26,7 +26,7 @@ const alive = async (m, Matrix) => {
     image.print(font, x, y, timeString, width, Jimp.HORIZONTAL_ALIGN_CENTER | Jimp.VERTICAL_ALIGN_MIDDLE);
     const buffer = await image.getBufferAsync(Jimp.MIME_PNG);
     
-    const uptimeMessage = `*✭𝙺𝙴𝚁𝙼 𝙼𝙳 𝚅3✭ running...*`
+    const uptimeMessage = `*❆𝙽𝙾𝚅𝙰 ᵛ1❆ runníng...*`
 _________________________________________
 
 *🗓️ ${days} Day(s)*
@@ -65,7 +65,7 @@ _________________________________________
               text: uptimeMessage
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
-              text: "`© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴋᴇʀᴍ-ᴍᴅ`"
+              text: "`© 𝚂𝚃𝚁𝙸𝙺𝙴𝚁𝙱𝙾𝚈 𝚃𝙴𝙲𝙷 𝚆𝙾𝚁𝙻𝙳`"
             }),
             header: proto.Message.InteractiveMessage.Header.create({
               ...(await prepareWAMessageMedia({ image: buffer }, { upload: Matrix.waUploadToServer })),
@@ -83,7 +83,7 @@ _________________________________________
               isForwarded: true,
               forwardedNewsletterMessageInfo: {
                 newsletterJid: '120363321386877609@newsletter',
-                newsletterName: "𝙆𝙀𝙍𝙈_𝙈𝘿-𝙑3",
+                newsletterName: "𝑵𝑶𝑽𝑨 ᵛ1",
                 serverMessageId: 143
               }
             }
