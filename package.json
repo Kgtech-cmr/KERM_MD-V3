@@ -1,16 +1,16 @@
 {
-  "name": "𝐍𝐎𝐕𝐀 ᵛ1",
+  "name": "𝐍𝐎𝐕𝐀",
   "version": "10.8.1",
   "description": "𝐍𝐎𝐕𝐀 ᵛ1 latest multi device whatsapp bot",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name Kerm-MD",
-    "stop": "pm2 stop Kerm-MD",
-    "restart": "pm2 restart Kerm-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name NOVA",
+    "stop": "pm2 stop NOVA",
+    "restart": "pm2 restart NOVA"
   },
-  "keywords": ["kerm-md", "whatsapp-bot", "whatsapp md bot"],
-  "author": "Kg-Tech",
+  "keywords": ["nova", "whatsapp-bot", "whatsapp md bot"],
+  "author": "STRIKERBOY",
   "license": "ISC",
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
