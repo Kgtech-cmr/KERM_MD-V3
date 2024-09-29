@@ -21,7 +21,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
       return m.reply('*⚠️ BOT MUST BE AN ADMIN TO USE THIS COMMAND.*');
     }
 
-    if (!text) return m.reply(`*⚠️ ENTER THE NUMBER YOU WANT TO INVITE TO THE GROUP*\n\nExample:\n*${prefix + cmd}* 919142294671`);
+    if (!text) return m.reply(`*⚠️ ENTER THE NUMBER YOU WANT TO INVITE TO THE GROUP*\n\nExample:\n*${prefix + cmd}* 26377233377`);
     if (text.includes('+')) return m.reply(`*⚠️ ENTER THE NUMBER TOGETHER WITHOUT *+*`);
     if (isNaN(text)) return m.reply(`*⚠️ ENTER ONLY THE NUMBERS PLUS YOUR COUNTRY CODE WITHOUT SPACES`);
 
