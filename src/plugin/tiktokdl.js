@@ -35,7 +35,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
     }
 
     try {
-      await m.React("🕘");
+      await m.React("♻️");
 
 
       const tikTokData = await tikdown(text);
@@ -76,13 +76,13 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
             },
             interactiveMessage: proto.Message.InteractiveMessage.create({
               body: proto.Message.InteractiveMessage.Body.create({
-                text: `𝙆𝙀𝙍𝙈_𝙈𝘿-𝙑3 TikTok Download\n\nTitle: ${currentResult.data.title}\nAuthor: ${currentResult.data.author.nickname}\nViews: ${currentResult.data.view}\nDuration: ${currentResult.data.duration}s\n`
+                text: `𝐍𝐎𝐕𝐀 ᵛ1 TikTok Download\n\nTitle: ${currentResult.data.title}\nAuthor: ${currentResult.data.author.nickname}\nViews: ${currentResult.data.view}\nDuration: ${currentResult.data.duration}s\n`
               }),
               footer: proto.Message.InteractiveMessage.Footer.create({
-                text: "© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴋᴇʀᴍ-ᴍᴅ"
+                text: "© pσwєrєd вч 𝚂𝚃𝚁𝙸𝙺𝙴𝚁𝙱𝙾𝚈 𝚆𝙾𝚁𝙻𝙳"
               }),
               header: proto.Message.InteractiveMessage.Header.create({
-                 ...(await prepareWAMessageMedia({ image: { url: `https://files.catbox.moe/wdnhap.jpg` } }, { upload: Matrix.waUploadToServer })),
+                 ...(await prepareWAMessageMedia({ image: { url: `https://i.imgur.com/ZnfODeW.jpeg` } }, { upload: Matrix.waUploadToServer })),
                 title: "",
                 gifPlayback: true,
                 subtitle: "",
@@ -137,9 +137,9 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
           const fileSizeInMB = finalMediaBuffer.length / (1024 * 1024);
 
           if (type === 'video' && fileSizeInMB <= 300) {
-            content = { video: finalMediaBuffer, mimetype: 'video/mp4', caption: '> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴋᴇʀᴍ-ᴍᴅ' };
+            content = { video: finalMediaBuffer, mimetype: 'video/mp4', caption: '> © pσwєrєd вч 𝚂𝚃𝚁𝙸𝙺𝙴𝚁𝙱𝙾𝚈 𝚆𝙾𝚁𝙻𝙳' };
           } else if (type === 'audio' && fileSizeInMB <= 300) {
-            content = { audio: finalMediaBuffer, mimetype: 'audio/mpeg', caption: '> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴋᴇʀᴍ-ᴍᴅ' };
+            content = { audio: finalMediaBuffer, mimetype: 'audio/mpeg', caption: '> © pσwєrєd вч 𝚂𝚃𝚁𝙸𝙺𝙴𝚁𝙱𝙾𝚈 𝚆𝙾𝚁𝙻𝙳' };
           }
 
           await Matrix.sendMessage(m.from, content, { quoted: m });
