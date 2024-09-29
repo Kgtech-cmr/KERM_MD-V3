@@ -30,7 +30,7 @@ let initialConnection = true;
 const PORT = process.env.PORT || 3000;
 
 const MAIN_LOGGER = pino({
-    timestamp: () => `"time":"${new Date().toJSON()}"`
+    timestamp: () => `,"time":"${new Date().toJSON()}"`
 });
 const logger = MAIN_LOGGER.child({});
 logger.level = "trace";
