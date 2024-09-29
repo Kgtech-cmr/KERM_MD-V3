@@ -65,7 +65,7 @@ _________________________________________
               text: uptimeMessage
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
-              text: "`© 𝚂𝚃𝚁𝙸𝙺𝙴𝚁𝙱𝙾𝚈 𝚃𝙴𝙲𝙷 𝚆𝙾𝚁𝙻𝙳`"
+              text: "*© 𝚂𝚃𝚁𝙸𝙺𝙴𝚁𝙱𝙾𝚈 𝚃𝙴𝙲𝙷 𝚆𝙾𝚁𝙻𝙳*"
             }),
             header: proto.Message.InteractiveMessage.Header.create({
               ...(await prepareWAMessageMedia({ image: buffer }, { upload: Matrix.waUploadToServer })),
@@ -83,7 +83,7 @@ _________________________________________
               isForwarded: true,
               forwardedNewsletterMessageInfo: {
                 newsletterJid: '120363321386877609@newsletter',
-                newsletterName: "𝑵𝑶𝑽𝑨 ᵛ1",
+                newsletterName: "𝑵𝑶𝑽𝑨",
                 serverMessageId: 143
               }
             }
