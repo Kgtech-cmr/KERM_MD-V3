@@ -23,7 +23,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
 
       const contentType = res.headers.get('content-type');
       if (!/text|json/.test(contentType)) {
-        await Matrix.sendMedia(m.from, url, 'file', '> Api Fetched From ✭𝙺𝙴𝚁𝙼 𝙼𝙳 𝚅3✭', m);
+        await Matrix.sendMedia(m.from, url, 'file', '> Api Fetched From ❆𝐍𝐎𝐕𝐀 ᵛ1❆', m);
         return;
       }
 
