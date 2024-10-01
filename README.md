@@ -55,7 +55,7 @@
 <a href="https://dynamic-nanete-kg-tch237-6f189e8e.koyeb.app/code"><img src="https://img.shields.io/badge/PAIR_CODE-yellow" alt="Click Here to Get Pair-Code" width="110"></a>   
 
 ## How To Deploy On Panel.
- [![YOUTUBE](https://img.shields.io/badge/HOW_TO_DEPLOY-red?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/WBlvraDK7rY?si=pKxv4qxA__GtjBgg)
+ [![YOUTUBE](https://img.shields.io/badge/HOW_TO_DEPLOY-red?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/WBlvraDK7rY?si=OBuQK6qrjuQZOVsg)
 
 #### DEPLOY ON PANEL 
 1. Now Deploy
