@@ -1,4 +1,4 @@
-import config from '../../config.cjs';
+import config from '../../config.js';
 
 const kick = async (m, gss) => {
   try {
@@ -7,7 +7,7 @@ const kick = async (m, gss) => {
 const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0].toLowerCase() : '';
 const text = m.body.slice(prefix.length + cmd.length).trim();
 
-    const validCommands = ['kick', 'remove'];
+    const validCommands = ['kick', 'remove','bye'];
 
     if (!validCommands.includes(cmd)) return;
 
