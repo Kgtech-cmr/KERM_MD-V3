@@ -1,4 +1,4 @@
-import config from '../../config.cjs';
+import config from '../../config.js';
 import axios from 'axios';
 
 const cricketScore = async (m, Matrix) => {
