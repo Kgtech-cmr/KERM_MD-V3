@@ -1,6 +1,6 @@
 import generateProfilePicture from '../generateProfilePicture.js';
 import { writeFile, unlink } from 'fs/promises';
-import config from '../../config.cjs';
+import config from '../../config.js';
 
 const setProfilePicture = async (m, gss) => {
   const botNumber = await gss.decodeJid(gss.user.id);
