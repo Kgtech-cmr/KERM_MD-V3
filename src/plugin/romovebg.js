@@ -2,7 +2,7 @@ import path from 'path';
 import fs from 'fs';
 import { v4 as uuidv4 } from 'uuid';
 import { removeBackgroundFromImageFile } from 'remove.bg';
-import config from '../../config.cjs';
+import config from '../../config.js';
 
 const tourl = async (m, gss) => {
   const prefix = config.PREFIX;
