@@ -1,4 +1,4 @@
-import config from '../../config.cjs';
+import config from '../../config.js';
 
 const demote = async (m, gss) => {
   try {
