@@ -2,7 +2,7 @@ import qrcode from 'qrcode';
 import fs from 'fs';
 import path from 'path';
 import PDFDocument from 'pdfkit';
-import config from '../../config.cjs';
+import config from '../../config.js';
 
 const toqr = async (m, gss) => {
   try {
