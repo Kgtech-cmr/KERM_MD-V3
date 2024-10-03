@@ -1,5 +1,5 @@
 import { toAudio } from '../../lib/converter.cjs';
-import config from '../../config.cjs';
+import config from '../../config.js';
 
 const tomp3 = async (m, gss) => {
   try {
