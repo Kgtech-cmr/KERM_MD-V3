@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { GoogleGenerativeAI } from '@google/generative-ai';
-import config from '../../config.cjs';
+import config from '../../config.js';
 
 const geminiResponse = async (m, Matrix) => {
   const prefix = config.PREFIX;
