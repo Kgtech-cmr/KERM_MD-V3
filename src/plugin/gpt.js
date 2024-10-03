@@ -3,7 +3,7 @@ import path from 'path';
 import fetch from 'node-fetch';
 import pkg from '@whiskeysockets/baileys';
 const { generateWAMessageFromContent, proto } = pkg;
-import config from '../../config.cjs';
+import config from '../../config.js';
 
 
 const __filename = new URL(import.meta.url).pathname;
