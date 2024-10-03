@@ -1,4 +1,4 @@
-import config from '../../config.cjs';
+import config from '../../config.js';
 import pkg, { prepareWAMessageMedia } from '@whiskeysockets/baileys';
 import Jimp from 'jimp';
 const { generateWAMessageFromContent, proto } = pkg;
