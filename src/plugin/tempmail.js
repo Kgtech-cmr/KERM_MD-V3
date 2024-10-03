@@ -1,7 +1,7 @@
 import pkg from '@whiskeysockets/baileys';
 const { generateWAMessageFromContent, proto } = pkg;
 import fetch from 'node-fetch'; 
-import config from '../../config.cjs';
+import config from '../../config.js';
 
 const tempMailCommand = async (m, Matrix) => {
     const prefix = config.PREFIX;
