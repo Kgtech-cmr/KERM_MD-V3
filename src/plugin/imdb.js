@@ -1,5 +1,5 @@
 import axios from 'axios';
-import config from '../../config.cjs';
+import config from '../../config.js';
 
 const imdb = async (m, gss) => {
   try {
