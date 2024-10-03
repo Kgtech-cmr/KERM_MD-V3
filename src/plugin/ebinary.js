@@ -1,5 +1,5 @@
-import { eBinary } from '../../lib/binary.cjs';
-import config from '../../config.cjs';
+import { eBinary } from '../../lib/binary.js';
+import config from '../../config.js';
 
 const ebinary = async (m, gss) => {
 const prefix = config.PREFIX;
