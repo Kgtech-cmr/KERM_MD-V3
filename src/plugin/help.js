@@ -3,7 +3,7 @@ import fs from 'fs';
 import os from 'os';
 import pkg, { prepareWAMessageMedia } from '@whiskeysockets/baileys';
 const { generateWAMessageFromContent, proto } = pkg;
-import config from '../../config.cjs';
+import config from '../../config.js';
 
 // Get total memory and free memory in bytes
 const totalMemoryBytes = os.totalmem();
