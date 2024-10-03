@@ -1,5 +1,5 @@
 import nodeFetch from 'node-fetch';
-import config from '../../config.cjs';
+import config from '../../config.js';
 
 const flirting = async (m, Matrix) => {
   const prefix = config.PREFIX;
