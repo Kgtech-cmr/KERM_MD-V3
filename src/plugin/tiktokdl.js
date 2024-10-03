@@ -2,7 +2,7 @@ import pkg, { prepareWAMessageMedia } from '@whiskeysockets/baileys';
 const { generateWAMessageFromContent, proto } = pkg;
 import pkgg from 'nayan-media-downloader';
 const { tikdown } = pkgg;
-import config from '../../config.cjs';
+import config from '../../config.js';
 
 
 const searchResultsMap = new Map();
