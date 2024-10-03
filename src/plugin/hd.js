@@ -4,7 +4,7 @@ import path from 'path';
 const require = createRequire(import.meta.url);
 const __filename = new URL(import.meta.url).pathname;
 const __dirname = path.dirname(__filename);
-const reminiPath = path.resolve(__dirname, '../remini.cjs');
+const reminiPath = path.resolve(__dirname, '../remini.js');
 const { remini } = require(reminiPath);
 
 const tohd = async (m, gss) => {
