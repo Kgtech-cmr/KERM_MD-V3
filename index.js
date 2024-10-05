@@ -95,8 +95,8 @@ async function start() {
                 }
             } else if (connection === 'open') {
                 if (initialConnection) {
-                    console.log(chalk.green("😃 Integration Successful️ ✅"));
-                    Matrix.sendMessage(Matrix.user.id, { text: `😃 Integration Successful️ ✅` });
+                    console.log(chalk.green("Kerm Md V3 Is successfull connected ✅"));
+                    Matrix.sendMessage(Matrix.user.id, { text: `KERM MD V3 IS CONNECTED\nDON'T FORGET TO JOIN CHANNEL😎` });
                     initialConnection = false;
                 } else {
                     console.log(chalk.blue("♻️ Connection reestablished after restart."));
