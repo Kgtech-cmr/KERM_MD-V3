@@ -26,12 +26,12 @@ const alive = async (m, Matrix) => {
     image.print(font, x, y, timeString, width, Jimp.HORIZONTAL_ALIGN_CENTER | Jimp.VERTICAL_ALIGN_MIDDLE);
     const buffer = await image.getBufferAsync(Jimp.MIME_PNG);
     
-    const uptimeMessage = `*✭𝙺𝙴𝚁𝙼 𝙼𝙳 𝚅3✭ running...*`
+    const uptimeMessage = `*✭𝙺𝙴𝚁𝙼 𝙼𝙳 𝚅3✭ running...*
 _________________________________________
 
-*🗓️ ${days} Day(s)*
-*🕐 ${hours} Hour(s)*
-*⏰ ${minutes} Minute(s)*
+*📆 ${days} Day(s)*
+*🕰️ ${hours} Hour(s)*
+*⏳ ${minutes} Minute(s)*
 *⏲️ ${seconds} Second(s)*
 _________________________________________
 `;
@@ -65,7 +65,7 @@ _________________________________________
               text: uptimeMessage
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
-              text: "`© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴋᴇʀᴍ-ᴍᴅ`"
+              text: "© ᴘᴏᴡᴇʀᴅ ʙʏ ᴋᴇʀᴍ-ᴍᴅ"
             }),
             header: proto.Message.InteractiveMessage.Header.create({
               ...(await prepareWAMessageMedia({ image: buffer }, { upload: Matrix.waUploadToServer })),
@@ -97,5 +97,3 @@ _________________________________________
     });
   }
 };
-
-export default alive;
