@@ -11,11 +11,11 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
   const validCommands = ['lyrics', 'lyric'];
 
   if (validCommands.includes(cmd)) {
-    if (!text) return m.reply(`Hello *_${m.pushName}_,*\n Here's Example Usage: _.lyrics Bad|Ninho ft Omah Lay._`);
+    if (!text) return m.reply(`Hello *_${m.pushName}_,*\n Here's Example Usage: _.lyrics 360 trickshot A Color Show|Jolagreen23._`);
 
     try {
-      await m.React('⏳');
-      await m.reply('A moment, *𝙆𝙀𝙍𝙈_𝙈𝘿-𝙑3* is generating your lyrics request...');
+      await m.React('🕘');
+      await m.reply('A moment, *Kerm-Md-V3* is generating your lyrics request...');
 
       if (!text.includes('|')) {
         return m.reply('Please provide the song name and artist name separated by a "|", for example: Bad|Ninho ft Omah Lay.');
@@ -45,8 +45,8 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
           {
             name: "cta_url",
             buttonParamsJson: JSON.stringify({
-              display_text: "sʜᴏᴡ 🕊️ ғᴏʀ 𝙆𝙀𝙍𝙈_𝙈𝘿-𝙑3",
-              url: `https://whatsapp.com/channel/0029VaWJMi3GehEE9e1YsI1S`
+              display_text: "sʜᴏᴡ 💜 ғᴏʀ ᴋᴇʀᴍ-ᴍᴅ",
+              url: `https://whatsapp.com/channel/0029Vafn6hc7DAX3fzsKtn45`
             })
           },
           {
@@ -70,7 +70,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
                   text: lyrics
                 }),
                 footer: proto.Message.InteractiveMessage.Footer.create({
-                  text: "`© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴋᴇʀᴍ-ᴍᴅ`"
+                  text: "> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴋᴇʀᴍ-ᴍᴅ*"
                 }),
                 header: proto.Message.InteractiveMessage.Header.create({
                   title: "",
@@ -89,14 +89,14 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
           messageId: msg.key.id
         });
 
-        await m.React('🕊️');
+        await m.React('✅');
       } else {
         throw new Error('Invalid response from the Lyrics API.');
       }
     } catch (error) {
       console.error('Error getting lyrics:', error.message);
       m.reply('Error getting lyrics.');
-      await m.React('💀');
+      await m.React('❌');
     }
   }
 };
